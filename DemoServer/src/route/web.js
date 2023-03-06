@@ -8,9 +8,7 @@ const initWebRoute = (app) => {
 
     router.get('/detail/user/:userId', homeController.getDetailPage)
 
-    router.get('/abc', (req, res) => {
-        res.send('<h1>111111111</h1>')
-    })
+    router.post('/create-new-user', homeController.getCreateNewUser)
 
     return app.use('/', router)
 }
