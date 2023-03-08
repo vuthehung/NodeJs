@@ -57,3 +57,11 @@ body {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.upload-file-container {
+  padding: 30px;
+}
+
+.upload-file-container .form-select-file {
+  margin: 10px;
+}

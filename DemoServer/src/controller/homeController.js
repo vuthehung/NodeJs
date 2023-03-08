@@ -37,6 +37,15 @@ let postUpdateUser = async (req, res) => {
     [firstname, lastname, email, address, id])
     return res.redirect('/')
 }
+
+let getUploadFile = (req, res) => {
+    return res.render('upload.ejs')
+}
+
+let handleUploadFile = (req, res) => {
+    return res.send('success')
+}
 module.exports = {
-    getHomePage, getDetailPage, createNewUser, deleteUser, getEditUser, postUpdateUser
+    getHomePage, getDetailPage, createNewUser, deleteUser, getEditUser, postUpdateUser,
+    getUploadFile, handleUploadFile
 }
