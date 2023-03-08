@@ -36,3 +36,24 @@ body {
 .create-user-container .btn-submit {
   margin-top: 15px;
 }
+
+.update-user-container {
+  text-align: center;
+}
+
+.update-user-container label {
+  display: block;
+}
+
+.update-user-container .btn-save {
+  margin-top: 15px;
+}
+
+.actions {
+  display: flex;
+}
+
+.form-edit {
+  margin-left: 15px;
+  margin-right: 15px;
+}
